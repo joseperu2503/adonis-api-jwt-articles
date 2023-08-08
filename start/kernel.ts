@@ -41,4 +41,5 @@ Server.middleware.register([
 |
 */
 Server.middleware.registerNamed({
+  jwt: () => import('App/Middleware/Jwt')
 })
